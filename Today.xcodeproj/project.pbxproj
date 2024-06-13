@@ -20,6 +20,7 @@
 		E9F05E8C2C19A58500D61413 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F05E8B2C19A58500D61413 /* ReminderListViewController+Actions.swift */; };
 		E9F05E912C19D05A00D61413 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F05E902C19D05A00D61413 /* ReminderViewController.swift */; };
 		E9F05E932C19D1C000D61413 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F05E922C19D1C000D61413 /* ReminderViewController+Row.swift */; };
+		E9F05E952C19EE3E00D61413 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F05E942C19EE3E00D61413 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E9F05E8B2C19A58500D61413 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		E9F05E902C19D05A00D61413 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		E9F05E922C19D1C000D61413 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		E9F05E942C19EE3E00D61413 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				E9F05E902C19D05A00D61413 /* ReminderViewController.swift */,
 				E9F05E922C19D1C000D61413 /* ReminderViewController+Row.swift */,
+				E9F05E942C19EE3E00D61413 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				E9F05E712C197BEA00D61413 /* ReminderListViewController.swift in Sources */,
 				E9F05E852C198AE700D61413 /* Date+Today.swift in Sources */,
 				E9F05E6D2C197BEA00D61413 /* AppDelegate.swift in Sources */,
+				E9F05E952C19EE3E00D61413 /* ReminderViewController+Section.swift in Sources */,
 				E9F05E6F2C197BEA00D61413 /* SceneDelegate.swift in Sources */,
 				E9F05E912C19D05A00D61413 /* ReminderViewController.swift in Sources */,
 				E9F05E932C19D1C000D61413 /* ReminderViewController+Row.swift in Sources */,
@@ -344,6 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTCS3FW2RY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -371,6 +376,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTCS3FW2RY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
